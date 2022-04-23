@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Button from "@material-ui/core/Button";
+import { green } from '@material-ui/core/colors';
+import { AddCircle } from "@material-ui/icons";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,9 +14,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
+          <Button variant="contained" color="primary" type="button" onClick={() => setCount((count) => count + 1)}>
+            <AddCircle style={{ color: green[500], marginRight: "10px" }} />
             count is: {count}
-          </button>
+          </Button>
         </p>
         <p>
           Edit <code>App.jsx</code> and save to test HMR updates.

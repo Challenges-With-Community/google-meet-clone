@@ -1,11 +1,69 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  height: 100%;
+}
+
 body {
+  --mdc-font-size: 2vmin;
+  --gm-button--font-size: 1em;
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: .9rem;
+  font-weight: 400;
+  height: 100%;
   margin: 0;
-  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  -webkit-user-select: none;
+  width: 100%;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --gm-background-color: #fff;
+  --gm-body-text-color: #3c4043;
+  --gm-caption-color: #5f6368;
+  --gm-error-color-highlight: #fce8e6;
+  --gm-error-color: #c5221f;
+  --gm-hairline-color: #dadce0;
+  --gm-hint-color: #5f6368;
+  --gm-label-color: #5f6368;
+  --gm-navigation-icon-color: #3c4043;
+  --gm-neutral-highlight-color: #f8f9fa;
+  --gm-neutral-outline-color: #dadce0;
+  --gm-overlay-color--on-theme-background: #202124;
+  --gm-secondary-icon-color: var(--gm-label-color);
+  --gm-text-color--on-theme-background: #fff;
+  --gm-text-color--on-dark-background: var(--gm-text-color--on-theme-background);
+  --gm-theme-color--base: #1a73e8;
+  --gm-theme-color--elevation-shadow-1: rgba(26,115,232,0.149);
+  --gm-theme-color--elevation-shadow-2: rgba(26,115,232,0.302);
+  --gm-theme-color--stateful: #174ea6;
+  --gm-theme-color-highlight: #e8f0fe;
+  --gm-theme-color: #1a73e8;
+  --gm-tooltip-background-color: #3c4043;
+  --mdc-theme-primary: var(--gm-theme-color);
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: none;
+  box-shadow: none;
+  background: #dadce0;
+  border-radius: 4px;
+  min-height: 40px;
+}
+
+::-webkit-scrollbar-track {
+   margin: 3px 0;
 }
