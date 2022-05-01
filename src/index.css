@@ -78,7 +78,7 @@ h1 {
 }
 
 .Home {
-  margin-top: 48px;
+  margin-top: 56px;
   height: calc(100vh - 56px);
   text-align: center;
   min-height: 100%;
@@ -133,6 +133,7 @@ h1 {
   flex-shrink: 1;
   max-width: 35rem;
   padding: 3em 2em;
+  max-height: -webkit-fill-available;
 }
 
 .Home-Info {
