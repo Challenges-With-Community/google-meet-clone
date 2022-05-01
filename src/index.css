@@ -12,7 +12,6 @@ body {
   font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
   font-size: .9rem;
   font-weight: 400;
-  height: 100%;
   margin: 0;
   -webkit-user-select: none;
   width: 100%;
@@ -66,4 +65,225 @@ code {
 
 ::-webkit-scrollbar-track {
    margin: 3px 0;
+}
+
+h1 {
+  font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+  font-size: 2.75rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 3.25rem;
+  padding-bottom: 0.5em;
+  margin: 0;
+}
+
+.Home {
+  margin-top: 48px;
+  height: calc(100vh - 56px);
+  text-align: center;
+  min-height: 100%;
+  font-size: 1rem;
+  animation: .5s ease-in fadeIn 0s forwards;
+}
+
+.Link {
+  color: var(--gm-theme-color);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}
+
+.StepsDescriptions {
+  letter-spacing: .01428571em;
+  font-family: Roboto,Arial,sans-serif;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  margin: 0;
+}
+
+.StepsTitles {
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 2rem;
+  margin: 0;
+}
+
+.GoogleMeetDescription {
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  color: #5f6368;
+  max-width: 30rem;
+  padding-bottom: 2em;
+  margin: 0;
+}
+
+.Home-Meeting {
+  display: inline-flex;
+  flex-basis: 35rem;
+  flex-direction: column;
+  flex-shrink: 1;
+  max-width: 35rem;
+  padding: 3em 2em;
+}
+
+.Home-Info {
+  padding: 1em 2em;
+  max-width: 39rem;
+  margin: auto;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(255,255,255,1);
+  min-width: 0;
+  white-space: nowrap;
+  padding: 4px;
+  padding-left: 8px;
+  z-index: 2;
+}
+
+.Header-Info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Header-Info-Icons {
+  display: flex;
+}
+
+.Datetime {
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  color: #5f6368;
+  margin-right: 12px;
+}
+
+.Logo {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  overflow: hidden;
+  -webkit-user-select: none;
+  flex: 1 1 auto;
+  height: 48px;
+  vertical-align: middle;
+  padding-left: 12px;
+}
+
+.Home-Meeting-Buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
+
+.NewMeetingButton {
+  box-shadow: none;
+  height: 48px;
+}
+
+.NewMeetingButton:hover {
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+  outline: 2px solid transparent;
+  background-color: #1a6dde;
+}
+
+.NewMeetingButton:active {
+  border: none;
+}
+
+.LinkContainerTwo{
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.NewMeetingItems svg {
+  margin-right: 30px;
+}
+
+.Hide-Join-Button {
+  display: none !important;
+}
+
+.Show-Join-Button {
+  display: block !important;
+}
+
+.Home-Meeting-Buttons-Code {
+  display: inline-flex;
+  min-width: 17em;
+  text-align: center;
+}
+
+.Home-Meeting-Description {
+  text-align: center;
+}
+
+.LinkContainerOne {
+  display: none;
+}
+
+@media (min-width: 529px) {
+  .Home-Meeting-Buttons {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 961px) {
+  .Home {
+    display: flex;
+    align-items: center;
+  }
+
+  .Home-Meeting-Buttons {
+    flex-direction: column;
+  }
+
+  .Home-Meeting {
+    flex-basis: 34rem;
+    padding: 5em 5em;
+  }
+
+  .Home-Meeting-Description {
+    text-align: left;
+  }
+
+  .Link {
+    margin-top: 10px;
+  }
+
+  .LinkContainerTwo {
+    display: none;
+  }
+
+  .LinkContainerOne {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1033px) {
+  .Home-Meeting-Buttons {
+    flex-direction: row;
+  }
 }
