@@ -1,12 +1,18 @@
-import Button from "@material-ui/core/Button";
-import { green } from '@material-ui/core/colors';
-import { AddCircle } from "@material-ui/icons";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import { Home } from "@/pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      app works ...
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
