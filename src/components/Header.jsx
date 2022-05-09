@@ -64,7 +64,7 @@ const Header = () => {
                   </div>
               </div>
               <div>
-                  <Avatar alt="Profile image" src='https://lh3.googleusercontent.com/fife/AAWUweW7IcAZ3iInuLztIlVCY6MgX1E7Al6VuiMFFw50-JCKjlnWZdAiMltdjv1pt9pt4OuL2Tni2qpM2yvJghxytpU8MYaLma4DCTCPijDCrepa4rdIL_1mQcvlG8_tbQat_DjCwJzTK1RwD82koZsfpH5brPDejH-hYIBwXfl1kWt1ItlfAS2oWFT0j60-14n17W2E_KEQBqT_tkB9f9D1kGOLN48OvTX5BC7rh2E1C5mFCOO9ujDhmbxNcV7aUwPv6y_nOFCelHHrId4cNWk3UA9Mizf0h94gOEF_i7P-yd-tcAhkExeqQjFNXOea2dkRLmGThN_BpRL4BLDZgbr0Xd5LAab4YGi5T6NbpR5Ngoh0i7iPPVhP9kgNIgVX1kHReWr5JiVAD0q0Iw5ont5L1ezppL5hixJC8LTiY6fpNWi8Slv3WBIUXzLATSlwksx1dMsfo46leTmaG_daZgZt2g_sm5ST2Vs3znt1msRWjgY10JqCcJ85EPSo567is18ws-7pncMnIOPJzZD0kIJghQBfbF4ker6EAw1t_QKO-kg-tCRFV1hEgalkaA6IA5VXdTp_0ebdr3_2A1zkR6xhgHdSNDHeHKAb1UsbkWepXEWuZjrC_5qiKldn83OJNO2iBNbDK_v48oGLMDvAvORoAatjG_fJocoe_Qk5Joi5LfFSGnf4f5u7ZBZyp5kubRute7ou2WXLbQQmEjkaBlqEUfyT0XPw_eWRuR8OlvtjzO5K_SUdqNHW0sBX5d_zOAkERKza36Y9AbcdM7PoNCq6BOfCNwRO4ptZGY2GZXkR5HlWgO6i80ZmE4VG7XtoahOnI8HDimSY6VxQKKtSFKYvYumczktMRziY_xNY3hwxaeVJ8BYiV7BPLgUuoFTTbID70-6D=s32-c' />
+                  <Avatar alt="Profile image" src='' />
               </div>
       </div>
   );
