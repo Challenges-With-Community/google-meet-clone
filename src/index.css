@@ -282,6 +282,7 @@ h1 {
   }
 }
 
+
 @media (min-width: 1033px) {
   .Home-Meeting-Buttons {
     flex-direction: row;
