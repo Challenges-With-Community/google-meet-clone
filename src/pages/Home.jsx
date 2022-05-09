@@ -1,13 +1,9 @@
 import React, { useState } from "react";
+
 import NewMeeting from "../components/NewMeeting";
-import {
-  Button,
-  Box,
-  TextField,
-  InputAdornment,
-  Divider,
-} from "@material-ui/core";
 import Carousel from "../components/Carousel";
+
+import { Button, TextField, InputAdornment, Divider } from "@material-ui/core";
 import KeyboardOutlinedIcon from "@material-ui/icons/KeyboardOutlined";
 
 const Home = () => {
@@ -30,7 +26,6 @@ const Home = () => {
   };
 
   const handleChange = (e) => {
-    e.preventDefault();
     const value = e.target.value;
     setRoomCode(value);
     if (value.length === 0) {

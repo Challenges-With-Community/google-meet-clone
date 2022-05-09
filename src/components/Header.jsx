@@ -8,7 +8,8 @@ import IconButton from "@material-ui/core/IconButton";
 import SettingsOutlinedIcon from "@material-ui/icons/SettingsOutlined";
 
 const Header = () => {
-  const { user, signIn, isUserExist, currentDate} = useHeader();
+  const { user, signInUser, signOutUser, currentDate } =
+    useHeader();
 
   return (
     <div className="Header">
@@ -59,14 +60,24 @@ const Header = () => {
         </div>
       </div>
       <div style={{ paddingLeft: "18px" }}>
-        {isUserExist ? (
-          <Avatar alt="Profile image" src={user?.photoURL} />
+        {user ? (
+          <>
+            <Avatar alt="Profile image" src={user?.photoURL} />
+            {/* <Button
+              color="primary"
+              disableElevation={true}
+              variant="contained"
+              onClick={signOutUser}
+            >
+              Salir
+            </Button> */}
+          </>
         ) : (
           <Button
             color="primary"
             disableElevation={true}
             variant="contained"
-            onClick={signIn}
+            onClick={signInUser}
           >
             Iniciar sesion
           </Button>

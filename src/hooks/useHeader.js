@@ -19,8 +19,7 @@ const MONTH_LIST = [
 
 export function useHeader() {
   const [currentDate, setCurrentDate] = useState("");
-  const [isUserExist, setIsUserExist] = useState(false);
-  const { signIn, user } = useFirebase();
+  const { signInUser, signOutUser, user } = useFirebase();
 
   const getCurrentDate = () => {
     const today = new Date();
@@ -44,14 +43,11 @@ export function useHeader() {
     }, 1000);
   }, []);
 
-  useEffect(() => {
-    if (user) setIsUserExist(true);
-  }, [user]);
 
   return {
     user,
     currentDate,
-    isUserExist,
-    signIn,
+    signInUser,
+    signOutUser,
   };
 }
