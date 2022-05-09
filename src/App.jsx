@@ -1,11 +1,12 @@
-import Button from "@material-ui/core/Button";
-import { green } from '@material-ui/core/colors';
-import { AddCircle } from "@material-ui/icons";
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      app works ...
+      <Header />
+      <Home />
     </div>
   );
 }
