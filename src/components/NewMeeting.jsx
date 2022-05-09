@@ -45,6 +45,7 @@ const NewMeeting = () => {
               aria-haspopup="true"
               onClick={handleToggle}
               startIcon={<VideoCallOutlinedIcon />}
+              disableElevation={true}
               className='NewMeetingButton'
               style={{ height: 56, textTransform: 'inherit', fontSize: '1rem', fontWeight: 500, marginRight: 15 }}
               variant="contained"
