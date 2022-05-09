@@ -9,7 +9,7 @@ html {
 body {
   --mdc-font-size: 2vmin;
   --gm-button--font-size: 1em;
-  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
   font-size: .9rem;
   font-weight: 400;
   margin: 0;
@@ -40,8 +40,8 @@ code {
   --gm-text-color--on-theme-background: #fff;
   --gm-text-color--on-dark-background: var(--gm-text-color--on-theme-background);
   --gm-theme-color--base: #1a73e8;
-  --gm-theme-color--elevation-shadow-1: rgba(26,115,232,0.149);
-  --gm-theme-color--elevation-shadow-2: rgba(26,115,232,0.302);
+  --gm-theme-color--elevation-shadow-1: rgba(26, 115, 232, 0.149);
+  --gm-theme-color--elevation-shadow-2: rgba(26, 115, 232, 0.302);
   --gm-theme-color--stateful: #174ea6;
   --gm-theme-color-highlight: #e8f0fe;
   --gm-theme-color: #1a73e8;
@@ -64,11 +64,11 @@ code {
 }
 
 ::-webkit-scrollbar-track {
-   margin: 3px 0;
+  margin: 3px 0;
 }
 
 h1 {
-  font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+  font-family: "Google Sans Display", Roboto, Arial, sans-serif;
   font-size: 2.75rem;
   font-weight: 400;
   letter-spacing: 0;
@@ -98,7 +98,7 @@ h1 {
 
 .StepsDescriptions {
   letter-spacing: .01428571em;
-  font-family: Roboto,Arial,sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-size: .875rem;
   font-weight: 400;
   line-height: 1.25rem;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .StepsTitles {
-  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0;
@@ -115,7 +115,7 @@ h1 {
 }
 
 .GoogleMeetDescription {
-  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   letter-spacing: 0;
@@ -149,11 +149,10 @@ h1 {
   left: 0;
   right: 0;
   top: 0;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(255, 255, 255, 1);
   min-width: 0;
   white-space: nowrap;
-  padding: 4px;
-  padding-left: 8px;
+  padding: 12px 18px 2px 8px;
   z-index: 2;
 }
 
@@ -168,7 +167,7 @@ h1 {
 }
 
 .Datetime {
-  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   letter-spacing: 0;
@@ -203,7 +202,7 @@ h1 {
 }
 
 .NewMeetingButton:hover {
-  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
   outline: 2px solid transparent;
   background-color: #1a6dde;
 }
@@ -212,7 +211,7 @@ h1 {
   border: none;
 }
 
-.LinkContainerTwo{
+.LinkContainerTwo {
   text-align: left;
   margin-top: 2rem;
 }
@@ -282,6 +281,7 @@ h1 {
     text-align: left;
   }
 }
+
 
 @media (min-width: 1033px) {
   .Home-Meeting-Buttons {
